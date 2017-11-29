@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="your_style.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -24,8 +25,8 @@
             <p>[ Mr. Brown, upon inquiry whether he had anything to say why sentence should not be
                 pronounced upon him, in a clear, distinct voice, replied:].</p> 
             <p>In the first place, I deny every thing but what 
-                <lb/>I have already admitted, of a design on my part to free Slaves. I
-                intended, certainly, to have made a clean thing of that matter, as I did last winter, when
+                <seg ana="first-person">I have </seg> already admitted, of a design on my part to free Slaves. <seg ana="first-person">I
+                intended </seg>, certainly, to have made a clean thing of that matter, as <seg ana="first-person">I did </seg> last winter, when
                 I went into Missouri, and there took Slaves, without the snapping of a gun on either side,
                 moving them through the country, and finally leaving them in Canada. I desired to have done
                 the same thing again, on a much larger scale. That was all I intended. I never did intend
@@ -58,7 +59,7 @@
             <p>Let me say one
             word further: I feel entirely satisfied with the treatment I have received on my trial.
             Considering all the circumstances, it has been more generous than I expected; but I feel no
-            consciousness of guilt. I have stated from the first what was my intention, and what was
+            consciousness of guilt. <seg ana="first-person">I have stated </seg> from the first what was my intention, and what was
             not. I never had any design against the liberty of any person, nor any disposition to
             commit treason, or excite Slaves to rebel, or make any general insurrection. I never
             encouraged any man to do so, but always discouraged any idea of that kind.</p>
